@@ -11,7 +11,83 @@
     font-weight: 400;
 }
 
-div .mid_Slider{
-    background-color: 043873;
+.scroll_bar{
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.scroll_bar >div{
+    display: inline-block;
+    transform: translateX(0);
+    width: 10rem;
+    margin: 0.7rem;
+    padding: 0.5rem;
+    border: 0.01rem solid #FFC107;
+    border-radius: 0.5rem;
+    white-space: normal;
+}
+
+.scroll_bar h4, .scroll_bar h3, .scroll_bar p{
+text-align: left;
+padding: 0;
+}
+.scroll_bar ul{
+    padding: 0;
+}
+
+.scroll_bar li{
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    font-size: 0.6rem;
+
+}
+.scroll_bar li::before{
+    content: "\01F5F8"; 
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+
+.personal_slider{
+    padding: 2.5rem 0.5rem !important;
+    background-color: #043873;
+    border:none !important;
     color: white;
 }
+
+
+.personal_slider button{
+    background-color:rgb(27, 141, 211) !important;
+    border: none !important;
+    color: white !important;
+    font-size: 0.5rem !important;
+    
+}
+
+
+
+@media (min-width: 320px) {
+   
+.scroll_bar >div{width: 18rem;}
+    
+    
+    }
+    
+    
+    @media (min-width:565px) {
+    .scroll_bar >div{width: 10rem;} 
+    .scroll_bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    }
+    
+    @media (min-width:1010px) {
+        .scroll_bar >div{width: 20rem;}
+        
+    }
+    
+    
