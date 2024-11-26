@@ -1,0 +1,17 @@
+.Middle_content{
+    margin: 2rem 0.5rem;
+    overflow-x: hidden;
+}
+
+.Middle_content h3{
+    font-weight: 700;
+}
+
+.Middle_content p{
+    font-weight: 400;
+}
+
+div .mid_Slider{
+    background-color: 043873;
+    color: white;
+}

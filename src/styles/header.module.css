@@ -1,0 +1,138 @@
+
+
+header{
+    background-color: #043873;
+    overflow-x: hidden;
+    color: white;
+    padding-bottom: 2rem !important;
+}
+
+nav{
+    margin: 0.5rem;
+}
+.nav_btn{
+    display: none !important;
+    margin-right: 1rem !important;
+    font-size: 0.5rem !important;
+}
+
+.navigation_bar{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+h3{
+    padding: 0.7rem;
+}
+
+p{
+    padding: 0.3rem;
+    font-size: 0.6rem;
+    font-weight: 100;
+}
+
+.utton{
+    margin: 1rem !important;
+    font-size: 0.5rem !important;
+}
+
+.main_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_image img{
+    height: 6rem;
+    width: 6rem;
+}
+
+.nav_Side_drop_btn select{
+    display: none;
+    margin-right: 1rem;
+    background: none;
+    border: none;
+    color:white;
+    font-size: 0.7rem;
+    font-weight: 200;
+    
+}
+
+
+@media (min-width: 320px) {
+    
+.main_image img{
+    height: 8rem;
+    width: 8rem;
+}
+
+
+}
+
+
+@media (min-width:565px) {
+
+.nav_btn{
+    display:inline !important;
+}
+    
+.header_siding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header p{
+    margin: 1rem;
+}
+header h3{
+    margin: 0.7rem;
+}
+
+.image_side{
+    text-align: left;
+    flex: 1;
+}
+.main_image{
+    flex: 1;
+}
+
+.main_image img {
+    height: 18rem;
+    width: 18rem;
+}
+.main_image{
+    justify-content: flex-end;
+ }
+}
+
+@media (min-width:1010px) {
+.nav_Side_drop_btn select{
+    display: inline;
+}
+
+.main_image img {
+    height: 22rem;
+    width: 22rem;
+}
+.main_image{
+    justify-content: flex-end;
+ }
+    
+}
+
+
+@media (min-width:1485px) {
+   .header{
+    padding:0rem 7rem;
+   }
+.main_image img {
+    height: 20rem;
+    width: 25rem;
+}
+.main_image{
+    justify-content: flex-end;
+ }
+
+    }
